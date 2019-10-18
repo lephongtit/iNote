@@ -1,0 +1,1022 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c1b93372-940f-4737-9bea-99dbc82cc69d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../ SS13_Simple_login/src/LoginServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Form_Data_Binding/src/main/java/controller/EmployeeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Form_Data_Binding/src/main/webapp/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Form_Data_Binding/src/main/webapp/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Form_Data_Binding/src/main/webapp/WEB-INF/views/employee/create.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Form_Data_Binding/src/main/webapp/WEB-INF/views/employee/info.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Form_Data_Binding/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KIEM_TRA_1/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KIEM_TRA_1/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KIEM_TRA_1/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KIEM_TRA_1/src/com/codegym/controller/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KIEM_TRA_1/src/com/codegym/model/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KIEM_TRA_1/src/com/codegym/repository/GeneralRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KIEM_TRA_1/src/com/codegym/repository/Impl/ProductRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KIEM_TRA_1/src/com/codegym/repository/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KIEM_TRA_1/src/com/codegym/service/GeneralService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KIEM_TRA_1/src/com/codegym/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KIEM_TRA_1/src/com/codegym/service/impl/ProductServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../KIEM_TRA_1/src/com/codegym/views/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/codegym/ApplicationConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/codegym/ApplicationInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/codegym/controller/NoteController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/codegym/controller/TypeNoteControlle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/codegym/model/Note.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/codegym/model/TypeNote.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/codegym/repository/NoteRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/codegym/repository/TypeNoteRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/codegym/service/NoteService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/codegym/service/TypeNoteService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/codegym/service/impl/NoteServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/codegym/service/impl/TypeNoteServiceIpml.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/note/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/note/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/note/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/type_note/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/type_note/delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/type_note/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/type_note/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Quan_ly_tinh/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Quan_ly_tinh/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Quan_ly_tinh/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Quan_ly_tinh/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Quan_ly_tinh/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Quan_ly_tinh/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Quan_ly_tinh/src/main/java/com/codegym/cms/ApplicationConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Quan_ly_tinh/src/main/java/com/codegym/cms/ApplicationInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Quan_ly_tinh/src/main/java/com/codegym/cms/controller/CustomerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Quan_ly_tinh/src/main/java/com/codegym/cms/controller/ProvinceController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Quan_ly_tinh/src/main/java/com/codegym/cms/formatter/ProvinceFormatter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Quan_ly_tinh/src/main/java/com/codegym/cms/model/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Quan_ly_tinh/src/main/java/com/codegym/cms/model/Province.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Quan_ly_tinh/src/main/java/com/codegym/cms/repository/CustomerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Quan_ly_tinh/src/main/java/com/codegym/cms/repository/ProvinceRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Quan_ly_tinh/src/main/java/com/codegym/cms/service/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Quan_ly_tinh/src/main/java/com/codegym/cms/service/ProvinceService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Quan_ly_tinh/src/main/java/com/codegym/cms/service/impl/CustomerServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Quan_ly_tinh/src/main/java/com/codegym/cms/service/impl/ProvinceServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Quan_ly_tinh/src/main/webapp/WEB-INF/views/customer/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Quan_ly_tinh/src/main/webapp/WEB-INF/views/customer/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Quan_ly_tinh/src/main/webapp/WEB-INF/views/customer/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Quan_ly_tinh/src/main/webapp/WEB-INF/views/customer/search.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Quan_ly_tinh/src/main/webapp/WEB-INF/views/customer/view.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Quan_ly_tinh/src/main/webapp/WEB-INF/views/province/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Quan_ly_tinh/src/main/webapp/WEB-INF/views/province/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Quan_ly_tinh/src/main/webapp/WEB-INF/views/province/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS13_ java-web-currency-converter/src/ConverterServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS13_Product_Discount_Calculator/src/ProductDiscountCaculatorServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS13_Tu_dien_AnhViet/src/TranslationServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS14_Danh_sach_khach_hang/.idea/artifacts/SS14_Danh_sach_khach_hang_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS14_Danh_sach_khach_hang/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS14_Danh_sach_khach_hang/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS14_Danh_sach_khach_hang/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS14_Danh_sach_khach_hang/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS14_Danh_sach_khach_hang/SS14_Danh_sach_khach_hang.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS14_Danh_sach_khach_hang/web/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS14_Danh_sach_khach_hang/web/WEB-INF/lib/jstl-impl-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS14_Danh_sach_khach_hang/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS14_Danh_sach_khach_hang/web/anh/download.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS14_Danh_sach_khach_hang/web/anh/hoa.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS14_Danh_sach_khach_hang/web/anh/khoa.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS14_Danh_sach_khach_hang/web/anh/nam.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS14_Danh_sach_khach_hang/web/anh/thi.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS14_Tu_dien_JSP/web/dictionary.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS14_Ung_dung_Calulator/src/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS14_Ung_dung_Calulator/src/CalculatorServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS14_chuyen_doi_tien_te_JSP/web/WEB-INF/view/converter.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS15_Ung_dung_quan_ly_khach_hang/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS16_BT_Chuyen_doi_tien_te/src/Controller/calculate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS16_BT_Chuyen_doi_tien_te/web/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS16_BT_Chuyen_doi_tien_te/web/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS16_BT_Chuyen_doi_tien_te/web/WEB-INF/views/convert.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS16_Ung_dung_tu_dien/src/controller/Translate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS16_Ung_dung_tu_dien/web/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS16_Ung_dung_tu_dien/web/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS16_Ung_dung_tu_dien/web/WEB-INF/view/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS17_May_tinh_don_gian/web/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS17_May_tinh_don_gian/web/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS17_SandWich/web/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS17_SandWich/web/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS18_Custom_Validation/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS18_Custom_Validation/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS18_Custom_Validation/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS18_Custom_Validation/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS18_Custom_Validation/src/main/java/com/codegym/ApplicationConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS18_Custom_Validation/src/main/java/com/codegym/ApplicationInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS18_Custom_Validation/src/main/java/com/codegym/controller/PhoneController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS18_Custom_Validation/src/main/java/com/codegym/model/PhoneNumber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS18_Custom_Validation/src/main/resources/ValidationMessages.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS18_Custom_Validation/src/main/webapp/WEB-INF/views/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS18_Custom_Validation/src/main/webapp/WEB-INF/views/result.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS21_Validate_form/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS21_Validate_form/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS21_Validate_form/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS21_Validate_form/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS21_Validate_form/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS21_Validate_form/src/main/java/com/codegym/ApplicationConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS21_Validate_form/src/main/java/com/codegym/ApplicationInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS21_Validate_form/src/main/java/com/codegym/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS21_Validate_form/src/main/java/com/codegym/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS21_Validate_form/src/main/java/com/codegym/repository/UserRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS21_Validate_form/src/main/java/com/codegym/repository/impl/UserRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS21_Validate_form/src/main/java/com/codegym/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS21_Validate_form/src/main/java/com/codegym/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS21_Validate_form/src/main/resources/ValidationMessages.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS21_Validate_form/src/main/webapp/WEB-INF/views/result.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS21_Validate_form/src/main/webapp/WEB-INF/views/signUp.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS22_hit_counter/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS22_hit_counter/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS22_hit_counter/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS22_hit_counter/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS22_hit_counter/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS22_hit_counter/src/main/java/com/codegym/AppConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS22_hit_counter/src/main/java/com/codegym/AppInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS22_hit_counter/src/main/java/com/codegym/controller/CounterController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS22_hit_counter/src/main/java/com/codegym/model/MyCounter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS22_hit_counter/src/main/webapp/WEB-INF/views/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS22_save_user/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS22_save_user/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS22_save_user/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS22_save_user/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS22_save_user/src/main/java/com/codegym/AppConfiguration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS22_save_user/src/main/java/com/codegym/AppInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS22_save_user/src/main/java/com/codegym/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS22_save_user/src/main/java/com/codegym/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS22_save_user/src/main/webapp/WEB-INF/views/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS22_shopping_cart/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS22_shopping_cart/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS22_shopping_cart/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS22_shopping_cart/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS22_shopping_cart/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS22_shopping_cart/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS22_shopping_cart/src/main/java/com/codegym/ApplicationConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS22_shopping_cart/src/main/java/com/codegym/ApplicationInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS22_shopping_cart/src/main/java/com/codegym/controller/ProductController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS22_shopping_cart/src/main/java/com/codegym/controller/ShoppingCartController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS22_shopping_cart/src/main/java/com/codegym/model/Items.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS22_shopping_cart/src/main/java/com/codegym/model/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS22_shopping_cart/src/main/java/com/codegym/repository/ProductRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS22_shopping_cart/src/main/java/com/codegym/repository/impl/ProductRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS22_shopping_cart/src/main/java/com/codegym/service/ProductService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS22_shopping_cart/src/main/java/com/codegym/service/impl/ProductsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS22_shopping_cart/src/main/resources/global_config_app.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS22_shopping_cart/src/main/webapp/WEB-INF/images/hoa1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS22_shopping_cart/src/main/webapp/WEB-INF/images/hoa2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS22_shopping_cart/src/main/webapp/WEB-INF/images/hoa3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS22_shopping_cart/src/main/webapp/WEB-INF/images/hoa4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS22_shopping_cart/src/main/webapp/WEB-INF/views/product/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS22_shopping_cart/src/main/webapp/WEB-INF/views/product/view.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS22_shopping_cart/src/main/webapp/WEB-INF/views/shoppingCart/cart.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS22_shopping_cart/src/main/webapp/WEB-INF/views/shoppingCart/delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS22_shopping_cart/src/main/webapp/WEB-INF/views/shoppingCart/editQuantity.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS4_He_cac_hinh_hoc/src/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS4_He_cac_hinh_hoc/src/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS4_He_cac_hinh_hoc/src/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS4_He_cac_hinh_hoc/src/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS4_He_cac_hinh_hoc/src/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS4_Lop_Circle_va_Cilynder/src/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS4_Lop_Circle_va_Cilynder/src/Cylinder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS4_Lop_Circle_va_Cilynder/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS4_Lop_Point2D_va_lop_Point3D_java/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS4_Lop_Point2D_va_lop_Point3D_java/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS4_Lop_Point2D_va_lop_Point3D_java/src/Point2D.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS4_Lop_Point2D_va_lop_Point3D_java/src/Point3D.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS4_Lop_Point_va_MoveablePoint/SS4_Lop_Point_va_MoveablePoint.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS4_Thiet_ke_va_trien_khai_lop_Triangle/SS4_Thiet_ke_va_trien_khai_lop_Triangle.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS5_Interface_Colorable/src/Colorable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS5_Interface_Colorable/src/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS5_Interface_Colorable/src/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS5_Interface_Colorable/src/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS5_Interface_Colorable/src/Square.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS7_Trien_khai_Linked_List/src/MyLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS7_Trien_khai_Linked_List/src/Node.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS7_Trien_khai_Linkedlist/src/MyLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS7_Trien_khai_Linkedlist/src/TestMyLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS7_Trien_khai_lop_List_don_gian/src/MylistTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS7_Trien_khai_phuong_thuc/src/MyList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS7_Trien_khai_phuong_thuc/src/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS8_TH_tach_bien/src/FizzBuzz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS8_TH_tach_bien/test/FizzBuzzTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../SS8_TH_tach_phuong_thuc/src/Cylinder.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test/src/main/java/com/codegym/ApplicationConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test/src/main/java/com/codegym/ApplicationInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test/src/main/java/com/codegym/controller/SessionController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Test/src/main/webapp/WEB-INF/views/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ung_dung_blog/.idea/dataSources.local.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ung_dung_blog/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ung_dung_blog/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ung_dung_blog/src/main/java/com/codegym/cms/ApplicationConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ung_dung_blog/src/main/java/com/codegym/cms/ApplicationInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ung_dung_blog/src/main/java/com/codegym/cms/controllers/BlogController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ung_dung_blog/src/main/java/com/codegym/cms/model/Blog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ung_dung_blog/src/main/java/com/codegym/cms/repository/BlogRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ung_dung_blog/src/main/java/com/codegym/cms/service/BlogService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ung_dung_blog/src/main/java/com/codegym/cms/service/impl/BlogServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ung_dung_blog/src/main/webapp/WEB-INF/views/blog/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ung_dung_blog/src/main/webapp/WEB-INF/views/blog/delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ung_dung_blog/src/main/webapp/WEB-INF/views/blog/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ung_dung_blog/src/main/webapp/WEB-INF/views/blog/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ung_ung_blog_quoc_te/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ung_ung_blog_quoc_te/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ung_ung_blog_quoc_te/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ung_ung_blog_quoc_te/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ung_ung_blog_quoc_te/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ung_ung_blog_quoc_te/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ung_ung_blog_quoc_te/src/main/java/com/codegym/ApplicationConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ung_ung_blog_quoc_te/src/main/java/com/codegym/ApplicationInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ung_ung_blog_quoc_te/src/main/java/com/codegym/controller/DashBoardController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ung_ung_blog_quoc_te/src/main/java/com/codegym/controller/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ung_ung_blog_quoc_te/src/main/java/com/codegym/reponse/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ung_ung_blog_quoc_te/src/main/java/com/codegym/request/Credential.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ung_ung_blog_quoc_te/src/main/resources/messag_haw.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ung_ung_blog_quoc_te/src/main/resources/message.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ung_ung_blog_quoc_te/src/main/webapp/WEB-INF/views/dashboard.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Ung_ung_blog_quoc_te/src/main/webapp/WEB-INF/views/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Up_load_SS17/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Up_load_SS17/src/main/java/controller/MyFileUploadController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Up_load_SS17/src/main/java/form/MyUploadForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Validate_infor_user/src/main/java/com/codegym/ApplicationConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Validate_infor_user/src/main/java/com/codegym/ApplicationInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Validate_infor_user/src/main/java/com/codegym/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Validate_infor_user/src/main/java/com/codegym/model/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Validate_infor_user/src/main/webapp/WEB-INF/views/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Validate_infor_user/src/main/webapp/WEB-INF/views/result.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../co_so_du_lieu/.idea/gradle.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../co_so_du_lieu/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../co_so_du_lieu/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../co_so_du_lieu/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../co_so_du_lieu/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../co_so_du_lieu/src/main/java/ApplicationConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../co_so_du_lieu/src/main/java/ApplicationInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../co_so_du_lieu/src/main/java/model/Diem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../co_so_du_lieu/src/main/java/model/Khoa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../co_so_du_lieu/src/main/java/model/Monhoc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../co_so_du_lieu/src/main/java/model/Sinhvien.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../co_so_du_lieu/src/main/java/repository/SinhVienRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../co_so_du_lieu/src/main/java/service/GeneralService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../co_so_du_lieu/src/main/java/service/SinhVienService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customee-managerment/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customee-managerment/src/main/java/com/codegym/cms/ApplicationConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customee-managerment/src/main/java/com/codegym/cms/ApplicationInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customee-managerment/src/main/java/com/codegym/cms/controller/CustomerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customee-managerment/src/main/java/com/codegym/cms/model/Khoa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customee-managerment/src/main/java/com/codegym/cms/model/Sinhvien.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customee-managerment/src/main/java/com/codegym/cms/repository/Impl/SinhVienRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customee-managerment/src/main/java/com/codegym/cms/repository/Repository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customee-managerment/src/main/java/com/codegym/cms/repository/SinhVienRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customee-managerment/src/main/java/com/codegym/cms/service/Impl/SinhVienImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customee-managerment/src/main/java/com/codegym/cms/service/SinhVienService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customee-managerment/src/main/webapp/WEB-INF/views/sinhvien/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customee-managerment/src/main/webapp/WEB-INF/views/sinhvien/delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customee-managerment/src/main/webapp/WEB-INF/views/sinhvien/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customee-managerment/src/main/webapp/WEB-INF/views/sinhvien/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customer_thymeleaf/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customer_thymeleaf/src/main/java/ApplicationConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customer_thymeleaf/src/main/java/ApplicationInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customer_thymeleaf/src/main/java/controller/CustomerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customer_thymeleaf/src/main/java/model/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customer_thymeleaf/src/main/java/service/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customer_thymeleaf/src/main/java/service/CustomerServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customer_thymeleaf/src/main/webapp/WEB-INF/views/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customer_thymeleaf/src/main/webapp/WEB-INF/views/delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customer_thymeleaf/src/main/webapp/WEB-INF/views/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customer_thymeleaf/src/main/webapp/WEB-INF/views/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customer_thymeleaf/src/main/webapp/WEB-INF/views/layout.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customer_thymeleaf/src/main/webapp/WEB-INF/views/search.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../customer_thymeleaf/src/main/webapp/WEB-INF/views/view.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/web/WEB-INF/lib/jstl-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/web/WEB-INF/lib/jstl-impl-1.2.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/web/demo.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo_spring_controller/src/main/java/ApplicationConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo_spring_controller/src/main/java/ApplicationInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo_spring_controller/src/main/java/controller/CustomerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo_spring_controller/src/main/java/model/Customer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo_spring_controller/src/main/java/model/CustomerForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo_spring_controller/src/main/java/repository/CustomerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo_spring_controller/src/main/java/repository/GenneralRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo_spring_controller/src/main/java/repository/impl/CustomerRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo_spring_controller/src/main/java/service/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo_spring_controller/src/main/java/service/GeneralService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo_spring_controller/src/main/java/service/impl/CustomerServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo_spring_controller/src/main/resources/global_config_app.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo_spring_controller/src/main/webapp/WEB-INF/views/customer/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo_spring_controller/src/main/webapp/WEB-INF/views/customer/delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo_spring_controller/src/main/webapp/WEB-INF/views/customer/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo_spring_controller/src/main/webapp/WEB-INF/views/customer/search.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo_spring_controller/src/main/webapp/image/hinh1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo_spring_controller/src/main/webapp/image/hinh2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo_spring_controller/src/main/webapp/image/hinh3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo_spring_controller/src/main/webapp/image/hinh4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo_spring_controller/src/main/webapp/image/hinh5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iNotes/src/main/java/com/codegym/ApplicationConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iNotes/src/main/java/com/codegym/ApplicationInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iNotes/src/main/java/com/codegym/controller/NoteController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iNotes/src/main/java/com/codegym/controller/NoteTypeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iNotes/src/main/java/com/codegym/model/Note.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iNotes/src/main/java/com/codegym/model/NoteType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iNotes/src/main/java/com/codegym/repository/NoteRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iNotes/src/main/java/com/codegym/repository/NoteTypeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iNotes/src/main/java/com/codegym/service/NoteService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iNotes/src/main/java/com/codegym/service/NoteTypeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iNotes/src/main/java/com/codegym/service/impl/NoteServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iNotes/src/main/java/com/codegym/service/impl/NoteTypeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iNotes/src/main/webapp/WEB-INF/views/note/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iNotes/src/main/webapp/WEB-INF/views/note/delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iNotes/src/main/webapp/WEB-INF/views/note/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iNotes/src/main/webapp/WEB-INF/views/note/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iNotes/src/main/webapp/WEB-INF/views/note/search.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../iNotes/src/main/webapp/WEB-INF/views/note/view.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kiem_tra_giua_module/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kiem_tra_giua_module/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kiem_tra_giua_module/src/main/java/com/codegym/ApplicationConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kiem_tra_giua_module/src/main/java/com/codegym/ApplicationInitializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kiem_tra_giua_module/src/main/java/com/codegym/controller/DepartmentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kiem_tra_giua_module/src/main/java/com/codegym/controller/EmployeeController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kiem_tra_giua_module/src/main/java/com/codegym/converter/StringToLocalDateConverter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kiem_tra_giua_module/src/main/java/com/codegym/model/Department.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kiem_tra_giua_module/src/main/java/com/codegym/model/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kiem_tra_giua_module/src/main/java/com/codegym/model/EmployeeForm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kiem_tra_giua_module/src/main/java/com/codegym/repository/DepartmenRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kiem_tra_giua_module/src/main/java/com/codegym/repository/EmployeeRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kiem_tra_giua_module/src/main/java/com/codegym/service/DepartmentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kiem_tra_giua_module/src/main/java/com/codegym/service/EmployeeService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kiem_tra_giua_module/src/main/java/com/codegym/service/impl/DepartmentServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kiem_tra_giua_module/src/main/java/com/codegym/service/impl/EmployeeServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kiem_tra_giua_module/src/main/resources/global_config_app.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kiem_tra_giua_module/src/main/webapp/WEB-INF/views/department/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kiem_tra_giua_module/src/main/webapp/WEB-INF/views/department/delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kiem_tra_giua_module/src/main/webapp/WEB-INF/views/department/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kiem_tra_giua_module/src/main/webapp/WEB-INF/views/department/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kiem_tra_giua_module/src/main/webapp/WEB-INF/views/department/view.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kiem_tra_giua_module/src/main/webapp/WEB-INF/views/employee/create.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kiem_tra_giua_module/src/main/webapp/WEB-INF/views/employee/delete.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kiem_tra_giua_module/src/main/webapp/WEB-INF/views/employee/detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kiem_tra_giua_module/src/main/webapp/WEB-INF/views/employee/edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kiem_tra_giua_module/src/main/webapp/WEB-INF/views/employee/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kiem_tra_giua_module/src/main/webapp/WEB-INF/views/employee/search.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../kiem_tra_giua_module/src/main/webapp/WEB-INF/views/error.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../sever_time/src/ServerTimeServlet.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-timezone/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-timezone/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-timezone/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tu_dien_ahihi/.idea/artifacts/tu_dien_ahihi_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tu_dien_ahihi/.idea/libraries/Spring_4_3_18_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tu_dien_ahihi/.idea/libraries/Spring_MVC_4_3_18_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tu_dien_ahihi/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tu_dien_ahihi/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tu_dien_ahihi/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tu_dien_ahihi/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tu_dien_ahihi/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tu_dien_ahihi/src/controllers/DictionaryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tu_dien_ahihi/src/models/Dictionary.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tu_dien_ahihi/src/services/DictionaryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tu_dien_ahihi/web/WEB-INF/applicationContext.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tu_dien_ahihi/web/WEB-INF/dispatcher-servlet.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tu_dien_ahihi/web/WEB-INF/views/index.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tu_dien_ahihi/web/WEB-INF/views/mean.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../tu_dien_ahihi/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled1/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled1/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled1/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled2/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled2/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled2/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled2/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled5/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled5/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled5/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled5/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled5/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled5/src/FizzBuzz.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled5/test/FizzBuzzTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled7/.idea/artifacts/untitled7_war_exploded.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled7/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled7/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled7/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled7/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../untitled7/web/WEB-INF/web.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../WebstormProjects/Mang_1/Frame.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../WebstormProjects/demo1/.idea/demo1.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../WebstormProjects/demo1/.idea/jsLibraryMappings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../WebstormProjects/demo1/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../WebstormProjects/demo1/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../WebstormProjects/demo1/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../WebstormProjects/Kiem_Tra_Giua_Md/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../WebstormProjects/Kiem_Tra_Giua_Md/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../WebstormProjects/Kiem_Tra_Giua_Md/Bai1.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../WebstormProjects/Kiem_Tra_Giua_Md/Bai1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../WebstormProjects/Kiem_Tra_Giua_Md/Bai2.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../WebstormProjects/Kiem_Tra_Giua_Md/Bai2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../WebstormProjects/Kiem_Tra_Giua_Md/Bai3.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../WebstormProjects/Kiem_Tra_Giua_Md/Bai3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../WebstormProjects/Kiem_Tra_Giua_Md/Bai4.html" beforeDir="false" afterPath="$PROJECT_DIR$/../../WebstormProjects/Kiem_Tra_Giua_Md/Bai4.html" afterDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path="$PROJECT_DIR$/.gradle/" />
+    <ignored path="$PROJECT_DIR$/build/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/controller/TypeNoteControlle.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/model/TypeNote.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/model/Note.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/repository/NoteRepository.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/repository/TypeNoteRepository.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/service/impl/NoteServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/service/impl/TypeNoteServiceIpml.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/service/TypeNoteService.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/service/NoteService.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" selection-start-line="5" selection-end-line="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/note/edit.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="299">
+              <caret line="40" column="7" selection-start-line="40" selection-start-column="7" selection-end-line="40" selection-end-column="7" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/build.gradle" />
+        <option value="$PROJECT_DIR$/src/main/java/com/codegym/repository/NoteRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/codegym/repository/NoteTypeRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/codegym/controller/NoteTypeController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/codegym/model/NoteType.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/codegym/service/NoteTypeService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/codegym/service/impl/NoteServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/note/create.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/codegym/controller/NoteController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/note/delete.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/note/edit.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/note/list.html" />
+        <option value="$PROJECT_DIR$/src/main/java/com/codegym/ApplicationConfig.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/codegym/ApplicationInitializer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/codegym/controller/TypeNoteControlle.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/codegym/model/Note.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/codegym/repository/TypeNoteRepository.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/codegym/service/NoteService.java" />
+      </list>
+    </option>
+  </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="width" value="933" />
+    <option name="height" value="1088" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Model2_iNote" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Model2_iNote" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="Model2_iNote" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Model2_iNote" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Model2_iNote" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Model2_iNote" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+            </path>
+            <path>
+              <item name="Model2_iNote" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Model2_iNote" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Model2_iNote" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Model2_iNote" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="codegym" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Model2_iNote" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Model2_iNote" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Model2_iNote" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Model2_iNote" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Model2_iNote" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Model2_iNote" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Model2_iNote" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Model2_iNote" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="note" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/main/webapp" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="project.structure.last.edited" value="Artifacts" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.codegym.controller" />
+      <recent name="com.codegym.service" />
+      <recent name="com.codegym.repository" />
+      <recent name="com.codegym.model" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\thienphong\IdeaProjects\Model2_iNote\src\main\webapp" />
+      <recent name="D:\thienphong\IdeaProjects\Model2_iNote\src\main\java\com\codegym\service" />
+      <recent name="D:\thienphong\IdeaProjects\Model2_iNote\src\main\java\com\codegym" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Tomcat 9.0.24" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.24" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="Gradle : com.codegym : Model2_iNote-1.0-SNAPSHOT.war">
+          <settings>
+            <option name="CONTEXT_PATH" value="" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_Model2_iNote" />
+      </server-settings>
+      <predefined_log_file enabled="true" id="Tomcat" />
+      <predefined_log_file enabled="true" id="Tomcat Catalina" />
+      <predefined_log_file id="Tomcat Manager" />
+      <predefined_log_file id="Tomcat Host Manager" />
+      <predefined_log_file id="Tomcat Localhost Access" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="64576" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method v="2">
+        <option name="Make" enabled="true" />
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="Gradle : com.codegym : Model2_iNote-1.0-SNAPSHOT.war" />
+        </option>
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c1b93372-940f-4737-9bea-99dbc82cc69d" name="Default Changelist" comment="" />
+      <created>1571333042328</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1571333042328</updated>
+      <workItem from="1571333048003" duration="3196000" />
+      <workItem from="1571368243174" duration="249000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="3445000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1480" height="878" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26830986" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="UI Designer" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32573727" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Build" order="7" weight="0.3297587" />
+      <window_info anchor="bottom" id="Application Servers" order="8" weight="0.33333334" />
+      <window_info anchor="bottom" id="Spring" order="9" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.3297587" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="12" side_tool="true" />
+      <window_info anchor="bottom" id="Java Enterprise" order="13" />
+      <window_info anchor="bottom" id="Database Changes" order="14" />
+      <window_info anchor="bottom" id="Version Control" order="15" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="3" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Gradle" order="6" />
+      <window_info anchor="right" id="Database" order="7" weight="0.32957748" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
+      <window_info anchor="right" id="Theme Preview" order="9" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="383">
+          <caret line="34" column="85" selection-start-line="34" selection-start-column="85" selection-end-line="34" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/model/NoteType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/repository/NoteTypeRepository.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/service/NoteTypeService.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/service/impl/NoteTypeServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/note/delete.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="45" column="7" selection-start-line="45" selection-start-column="7" selection-end-line="45" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/controller/NoteTypeController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/note/create.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="45" column="7" selection-start-line="45" selection-start-column="7" selection-end-line="45" selection-end-column="7" />
+          <folding>
+            <element signature="n#style#0;n#p#0;n#div#0;n#center#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/note/list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="421">
+          <caret line="43" column="13" selection-start-line="43" selection-start-column="13" selection-end-line="43" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/c7736dfb-cd5a-4ed2-90de-b9036a1f7f0f/console.sql">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/ApplicationConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="679">
+          <caret line="97" selection-start-line="97" selection-end-line="97" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/ApplicationInitializer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="9" column="5" lean-forward="true" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/controller/NoteController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="679">
+          <caret line="88" column="9" lean-forward="true" selection-start-line="88" selection-start-column="9" selection-end-line="88" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/controller/TypeNoteControlle.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/model/TypeNote.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/model/Note.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/repository/NoteRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/repository/TypeNoteRepository.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/service/impl/NoteServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/service/impl/TypeNoteServiceIpml.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/service/TypeNoteService.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/codegym/service/NoteService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/note/edit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="40" column="7" selection-start-line="40" selection-start-column="7" selection-end-line="40" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>Gradle : com.codegym : Model2_iNote-1.0-SNAPSHOT.war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

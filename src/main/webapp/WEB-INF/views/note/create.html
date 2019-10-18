@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Create</title>
+</head>
+<body>
+
+<center>
+    <div style="border: solid black;width: 350px" >
+
+    <h1>Thêm ghi chú mới</h1>
+        <th:block th:if="${message}">
+            <p th:text="${message}"></p>
+        </th:block>
+    <form th:action="@{/note/edit/done}" method="post" th:object="${note}">
+        <table>
+            <tr>
+                <td><label>Thể loại: </label></td>
+                <td><select th:field="*{typeNote}">
+                    <option th:each="c:${typeNotes}" th:value="${c.id}" th:text="${c.name}"></option>
+                </select></td>
+            </tr>
+            <tr>
+                <td><label>Tiêu đề: </label></td>
+                <td><input type="text" th:field="*{title}"></td>
+            </tr>
+            <tr>
+                <td><label>Nội dung: </label></td>
+                <td><input type="text" th:field="*{content}"></td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>
+                    <div>
+                        <input type="submit" value="Add" name="add">
+                        <input type="submit" value="Cancel" name="cancel" style="margin-left: 30px">
+                    </div>
+
+                </td>
+            </tr>
+        </table>
+    </form>
+    </div>
+</center>
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Create Type Note</title>
+</head>
+<body>
+
+<h1>Create Type</h1>
+<a th:href="@{/type_note/list}" style="text-decoration: none">List Type</a>
+
+<th:block th:if="${message}">
+    <p th:text="${message}">
+
+    </p>
+
+</th:block>
+<form th:action="@{/type_note/create/done}" method="post" th:object="${type}">
+    <table>
+        <tr>
+            <td>Tiêu đề: </td>
+            <td><input type="text" th:field="*{name}"></td>
+        </tr>
+        <tr>
+            <td>
+                <div>
+                    <input type="submit" value="Add" name="add" >
+                    <input type="submit" value="Cancel" name="cancel">
+                </div>
+            </td>
+        </tr>
+    </table>
+
+</form>
+
+</body>
+</html>

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Edit</title>
+</head>
+<body>
+
+<form th:action="@{/note/edit/done}" method="post" th:object="${note}" >
+    <input type="hidden" th:field="*{typeId}" th:value="${note.typeId}">
+    <div style="border: solid black;width: 350px; ">
+    <h1 style="text-align: center">Edit</h1>
+    <table>
+        <tr>
+
+            <td><label>Thể loại: </label></td>
+            <td><select th:field="*{typeNote}">
+                <option th:each="c:${typeNotes}" th:value="${c.id}" th:text="${c.name}"></option>
+            </select></td>
+        </tr>
+        <tr>
+            <td><label>Tiêu đề: </label></td>
+            <td><input type="text" th:field="*{title}" th:value="${note.title}"></td>
+        </tr>
+        <tr>
+            <td><label>Nội dung: </label></td>
+            <td><input  type="text" th:field="*{content}" th:value="${note.content}"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>
+                <div>
+                    <input type="submit" value="Edit" name="add">
+                    <input type="submit" value="Cancel" name="cancel" >
+                </div>
+            </td>
+        </tr>
+    </table>
+    </div>
+</form>
+</body>
+</html>
+

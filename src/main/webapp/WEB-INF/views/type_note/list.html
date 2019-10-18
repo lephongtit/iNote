@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>List</title>
+    <style>
+        th{
+            background-color: rgba(203, 203, 203, 0.96);
+        }
+        table{
+            border-collapse: collapse;
+        }
+        .list{
+            border: 1px solid black;
+        }
+        .create{
+            margin-left: 50px;
+        }
+    </style>
+</head>
+<body>
+<center>
+    <h1>List Note Type</h1>
+
+
+<!--    <div>-->
+<!--        <form th:action="@{/note/search}" method="post">-->
+<!--            <table>-->
+<!--                <tr>-->
+<!--                    <td><select name="typeValue">-->
+<!--                        <option th:each="c:${typeNotes}" th:value="${c.id}" th:text="${c.name}"></option>-->
+<!--                    </select>-->
+<!--                    </td>-->
+<!--                    <td><input type="text" name="strTitle" placeholder="Tiêu đề"></td>-->
+<!--                    <td><input type="submit" value="search"></td>-->
+
+<!--                </tr>-->
+<!--            </table>-->
+<!--        </form>-->
+<!--    </div>-->
+    <p>
+        <a th:href="@{/note/list}" style="text-decoration: none">List Note</a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <a th:href="@{/type_note/create}" style="text-decoration: none">Create Type</a>
+
+    </p>
+
+    <table class="list">
+        <tr class="list">
+            <th class="list">ID</th>
+            <th class="list">Thể loại</th>
+            <th class="list">Chọn</th>
+
+        </tr>
+
+        <th:block th:each="n:${type}">
+            <tr class="list">
+                <td th:text="${n.id}" class="list"></td>
+                <td th:text="${n.name}" class="list"></td>
+                <td class="list"><a th:href="@{/type_note/{id}/delete(id=${n.getId()})}" >Xóa</a><label>|</label> <a th:href="@{/type_note/{id}/edit(id=${n.getId()})}">Sửa</a></td>
+            </tr>
+
+        </th:block>
+        <div>
+            <a th:href="@{'/note/list/'(page=${type.number - 1})}" th:if="${type.hasPrevious()}">Previous</a>
+            <span th:text="${type.number + 1}"></span>/<span th:text="${type.totalPages}"></span>
+            <a th:href="@{'/note/list/'(page=${type.number + 1})}" th:if="${type.hasNext()}">Next</a>
+        </div>
+    </table>
+
+</center>
+</body>
+</html>

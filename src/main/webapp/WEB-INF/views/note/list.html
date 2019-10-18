@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>List</title>
+    <style>
+        th{
+            background-color: rgba(203, 203, 203, 0.96);
+        }
+        table{
+            border-collapse: collapse;
+        }
+        .list{
+            border: 1px solid black;
+        }
+        .create{
+            margin-left: 50px;
+        }
+    </style>
+</head>
+<body>
+<center>
+<h1>List Note</h1>
+
+
+    <div>
+        <form th:action="@{/note/search}" method="post">
+        <table>
+            <tr>
+                <td><select name="typeValue">
+                    <option th:each="c:${typeNotes}" th:value="${c.id}" th:text="${c.name}"></option>
+                </select>
+                </td>
+                <td><input type="text" name="strTitle" placeholder="Tiêu đề"></td>
+                <td><input type="submit" value="search"></td>
+
+            </tr>
+        </table>
+        </form>
+    </div>
+    <p>
+        <a th:href="@{/note/list}" style="text-decoration: none">Back to list</a>
+        <a th:href="@{/note/create}" style="text-decoration: none">Create Note</a>&nbsp;&nbsp;&nbsp;&nbsp;
+        <a th:href="@{/type/create}" style="text-decoration: none">Create Type</a>
+    <p>
+        <a th:href="@{/note/writeJSON}">Export JSON</a>
+    </p>
+
+    </p>
+
+<table class="list">
+    <tr class="list">
+        <th class="list">Tiêu đề</th>
+        <th class="list">Phân loại</th>
+        <th class="list">Nội Dung </th>
+        <th class="list">Chọn</th>
+    </tr>
+
+<th:block th:each="n:${notes}">
+    <tr class="list">
+        <td th:text="${n.title}" class="list"></td>
+        <td th:text="${n.typeNote.name}" class="list"></td>
+        <td th:text="${n.content}"class="list"></td>
+        <td class="list"><a th:href="@{/note/{id}/delete(id=${n.getTypeId()})}" >Xóa</a><label>|</label> <a th:href="@{/note/{id}/edit(id=${n.getTypeId()})}">Sửa</a></td>
+    </tr>
+
+</th:block>
+    <div>
+        <a th:href="@{'/note/list/'(page=${notes.number - 1})}" th:if="${notes.hasPrevious()}">Previous</a>
+        <span th:text="${notes.number + 1}"></span>/<span th:text="${notes.totalPages}"></span>
+        <a th:href="@{'/note/list/'(page=${notes.number + 1})}" th:if="${notes.hasNext()}">Next</a>
+    </div>
+</table>
+
+</center>
+</body>
+</html>
